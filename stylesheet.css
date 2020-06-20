@@ -40,13 +40,13 @@ img {vertical-align: middle;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: 5}
-  to {opacity: 5}
+  from {opacity: 0}
+  to {opacity: 0}
 }
 
 @keyframes fade {
-  from {opacity: 5}
-  to {opacity: 5}
+  from {opacity: 0}
+  to {opacity: 0}
 }
 
 /* Profil tim e20 */
