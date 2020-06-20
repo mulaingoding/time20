@@ -1,1 +1,67 @@
-
+.profils {
+  display: flex;
+  background-color: yellow;
+  border: 2px solid black;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+.profil-list {
+  background-color:red;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 20%;
+  height: auto;
+}
+.copyright {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+footer {
+  background-color: green;
+  border-radius: 5px;
+}
+.profil-item img {
+  border-radius: 50%;
+  width: 80%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgb(255, 204, 255);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.myprofil {
+  text-align: center;
+}
+.container {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+.profil-item {
+  padding: 20px;
+}
+.bio {
+  padding: 10px;
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+}
+@media screen and (max-width: 1000px) {
+  .profil-list {
+    width: 40%;
+  }
+}      
+@media screen and (max-width: 600px) {
+  .profil-list {
+    width: 60%;
+  }
+}
