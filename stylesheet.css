@@ -40,7 +40,7 @@ header {
 
 
 body {
-  margin-top: 50px;
+  margin: 0;
   font-family: "Lucida Grande";
 }
 
@@ -63,6 +63,7 @@ img {vertical-align: middle;}
   max-width: auto;
   position: relative;
   margin: auto;
+  padding-top: 10px;
 }
 
 .number {
