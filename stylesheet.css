@@ -1,3 +1,4 @@
+* {box-sizing: border-box;}
 /*Header*/
 header {
   height: 65px;
@@ -11,7 +12,6 @@ header {
   float: left;
   margin-left: 50px;
 }
-
 .header-right {
   float: right;
   margin-right: 50px;
@@ -32,7 +32,6 @@ header {
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
-
 .logo {
   width: 120px;
   margin-top: 10px;
@@ -54,15 +53,13 @@ a {
 
 
 /* Slideshow */
-* {box-sizing: border-box;}
-body {}
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
 .slideshow-container {
   max-width: auto;
   position: relative;
-  margin: auto;
+  margin-top: 100px;
   padding-top: 10px;
 }
 
