@@ -1,13 +1,26 @@
 /* Untuk Tablets */
-@media (max-width: 1000px) {
+@media all and (max-width: 1000px) {
   .slide {
     width: 50%;
     margin-bottom: 50px;
   }
+  .profil-list {
+    width : 40%;
+  }
 }
 
-@media (max-width: 670px ) {
-  /* Ubah width milik lesson ke 100% */
+/*untuk smartphone*/
+@media all and (max-width: 670px ) {
+   .header-right {
+   display: none;
+  }
+  .menu-icon {
+   display:block;
+  }
 .slide {
   width: 100%;
+  }
+ .profil-list {
+   width: 60%;
+}
 }
