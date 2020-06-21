@@ -128,10 +128,6 @@ img {vertical-align: middle;}
   font-weight: bold;
   padding-bottom: 20px;
 }
-footer {
-  background-color: green;
-  border-radius: 5px;
-}
 .profil-item img {
   border-radius: 50%;
   width: 80%;
@@ -161,13 +157,38 @@ footer {
   font-size: larger;
   font-weight: bolder;
 }
-@media screen and (max-width: 1000px) {
-  .profil-list {
-    width: 40%;
-  }
-}      
-@media screen and (max-width: 600px) {
-  .profil-list {
-    width: 60%;
-  }
+
+/*footer*/
+/*footer*/
+.footer {  
+  background-color: green;
+  color: #fff;
+  height: 80px;
+  padding: 40px; 
+}
+
+.footer-logo {
+  float: left;
+  font-size: 20px;
+}
+
+.footer-list {
+  float: right;  
+}
+
+.footer-list p {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.footer-list li {
+  padding-bottom: 10px;
+}
+
+.footer-list img:hover {
+  background-color :darkgreen;
+}
+
+marquee {
+  color :yellow;
 }
