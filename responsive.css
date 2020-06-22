@@ -1,16 +1,3 @@
-/* Untuk Tablets */
-@media all and (max-width: 1000px) {
-  .slide {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-  .profil-list {
-    width : 40%;
-  }
-}
-
-/*untuk smartphone*/
-
 @media all and (min-width: 670px){
 .navigasi a:hover{
 	color: #0082e6;
@@ -68,10 +55,4 @@
   #check:checked ~ .navigasi ul{
     left: 0;
   }
-	.slide {
-  width: 100%;
-  }
- .profil-list {
-   width: 60%;
-}
 }
