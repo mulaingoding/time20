@@ -1,5 +1,7 @@
-* {box-sizing: border-box;}
-/*Header*/
+*{
+	box-sizing:border-box;
+}
+
 body{
 	margin:0;
 	font-family: 'Roboto', sans-serif;
@@ -70,6 +72,7 @@ section{
   background-size: cover;
   height: calc(100vh - 80px);
 }
+
 
 
 /* Slideshow */
