@@ -5,6 +5,7 @@
 body{
 	margin:0;
 	font-family: 'Roboto', sans-serif;
+	background-color: #579AAB;
 }
 a{
 	text-decoration: none;
@@ -71,4 +72,148 @@ section{
   background: url(bg1.jpg) no-repeat;
   background-size: cover;
   height: calc(100vh - 80px);
+}
+
+ /* slideshow  */
+@keyframes slideshow {
+	10% {left: 0;}
+	20% {left: 0;}
+	30% {left: -100%;}
+	40% {left: -100%;}
+	50% {left: -200%;}
+	60% {left: -200%;}
+	70% {left: -300%;}
+	80% {left: -300%;}
+	90% {left: -400%;}
+	100% {left: -400%}
+}
+
+
+.slider {
+	overflow:hidden;
+	width:100%;
+	margin:5px auto; 
+	border: 5px solid transparent;
+	border-radius: 0px;
+}
+.slider figure img {
+	width:20%;
+	float:left;
+}
+.slider figure { 
+	position:relative;
+	width:500%;
+	margin:0;
+	padding-top:55px;
+	left:0;
+	text-align:left;
+	animation:20s slideshow infinite
+}
+
+/* Profil tim e20 */
+.profils {
+  display: flex;
+  background-color: #579AAB;
+  border: 2px solid black;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+.profil-list {
+  background-color:red;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 15%;
+  height: auto;
+}
+/**/
+
+
+.profil-item img {
+  border-radius: 50%;
+  width: 80%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgb(255, 204, 255);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.myprofil {
+  text-align: center;
+}
+.container {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+.profil-item {
+  padding: 20px;
+}
+.bio {
+  padding: 10px;
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 1000px) {
+	.profil-list {
+		width: 40%;
+	}
+}
+@media screen and (max-width: 600px) {
+	.profil-list {
+		width: 60%;
+	}
+}
+/*footer*/
+.footer {  
+  background-color: #366A77;
+  color: #fff;
+  height: 150px;
+  padding: 10px;
+  margin-top: 20px;  
+}
+
+.footer-logo {
+  float: left;
+  font-size: 20px;
+}
+
+.footer-list {
+  float: right;  
+  line-height:0.2;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+/*
+.footer-list p {
+  font-size: 20px;
+  padding-bottom: 10px;
+  
+}
+
+.footer-list li {
+  padding-bottom: 10px;
+}
+*/
+
+.footer-list img:hover {
+  background-color : #366A77;
+}
+
+marquee {
+  color :yellow;
+}
+
+.footer-logo p{
+	line-height:0.5;
 }
