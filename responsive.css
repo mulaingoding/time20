@@ -10,8 +10,29 @@
 }
 
 /*untuk smartphone*/
-@media all and (max-width: 670px ) {
-.kirilogo{
+
+@media all and (min-width: 670px){
+.navigasi a:hover{
+	color: #0082e6;
+}
+.navigasi li:hover::after{
+	content:'';
+	border-bottom: 2px solid #0082e6;
+	display:block;
+	width:50%;
+	margin:0 auto;
+	padding-bottom: 5px;
+	margin-bottom:-7px;
+	
+}
+.navigasi li{
+	padding:0 20px;
+	float:right;
+}
+}
+
+@media all and (max-width: 670px){
+ .kirilogo{
 	float:left;
 	font-size:25px;
 	color:white;
@@ -47,30 +68,10 @@
   #check:checked ~ .navigasi ul{
     left: 0;
   }
-.slide {
+	.slide {
   width: 100%;
   }
  .profil-list {
    width: 60%;
-}
-}
-
-@media all and (min-width: 670px){
-.navigasi a:hover{
-	color: #0082e6;
-}
-.navigasi li:hover::after{
-	content:'';
-	border-bottom: 2px solid #0082e6;
-	display:block;
-	width:50%;
-	margin:0 auto;
-	padding-bottom: 5px;
-	margin-bottom:-7px;
-	
-}
-.navigasi li{
-	padding:0 20px;
-	float:right;
 }
 }
